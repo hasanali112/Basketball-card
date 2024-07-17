@@ -13,3 +13,5 @@
 Unzip the project and open this a code editor. Create new terminal run this command `yarn`. This command install all dependency and then run `yarn dev` for running project locally.
 
 > Important note: If you get direct file and unzip, do not need install dependency. Direct run the project.
+
+Live Link: https://voluble-nasturtium-0d5359.netlify.app/
