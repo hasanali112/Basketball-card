@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+## Basketball Player Stats
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+1. Responsive Design: Ensures optimal viewing on devices of all sizes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Vanilla CSS: Utilizes vanilla CSS for styling to keep the project lightweight.
 
-## Expanding the ESLint configuration
+3. React: Leverages the power of React for efficient UI rendering.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## How to run the project ?
 
-- Configure the top-level `parserOptions` property like this:
+Unzip the project and open this a code editor. Create new terminal run this command `yarn`. This command install all dependency and then run `yarn dev` for running project locally.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+> Important note: If you get direct file and unzip, do not need install dependency. Direct run the project.
